@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @koushikreddy323
 - 👀 I’m interested in Android Development
-- 🌱 I’m currently learning Java,Python
+- 🌱 I’m currently learning Java,Python,SQL 
 - 📫 How to reach me --> Email: koushikreddy323@gmail.com
 
 <!---
