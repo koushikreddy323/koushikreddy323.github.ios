@@ -1,0 +1,172 @@
+.container {
+    width: 650px;
+    height: 470px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    border-radius: 30px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin-top: 90px;
+    box-shadow: 5px 20px 30px rgba(15, 113, 241, 0.2);
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    border: 0.5px solid blue;
+    border-radius: 30px;
+    background-color: rgb(80, 78, 206);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.circle {
+    width: 170px;
+    height: 170px;
+    border: 0.1 px solid black;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #353497 0%, rgb(80, 78, 206));
+    text-align: center;
+}
+
+.result {
+    font-size: 1.3em;
+    color: rgba(239, 245, 247, 0.8);
+    margin: 40px 0;
+}
+
+.seventy-six {
+    font-size: 4em;
+    margin-top: 30px;
+    color: white;
+    font-weight: 900;
+}
+
+.hundred {
+    top: -70px;
+    color: rgba(239, 245, 247, 0.6);
+    position: relative;
+}
+
+.great {
+    text-align: center;
+
+    padding: 0 45px;
+    color: rgba(239, 245, 247, 0.9);
+}
+
+.great2 {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 20px;
+    color: white;
+}
+
+.right {
+    padding: 20px;
+}
+
+.reaction {
+    width: 230px;
+    background-color: #ffeef3;
+    opacity: 0.8;
+    padding: 17px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    color: #ec2453;
+}
+
+span {
+    text-align: right;
+    margin-right: 0;
+    color: rgb(92, 91, 91);
+    font-weight: 100;
+}
+
+span b {
+    font-weight: bold;
+    color: black;
+}
+
+
+.summary {
+    font-size: 1.3em;
+    font-weight: 700;
+    position: relative;
+    left: 17px;
+
+}
+
+.Memory {
+    width: 230px;
+    background-color: #595985;
+    padding: 17px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    background-color: rgba(240, 231, 116,0.2);
+    color: #fdc500;
+
+}
+
+.verbal {
+    width: 230px;
+    background-color: #595985;
+    padding: 17px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    background-color: rgba(102, 224, 123,0.2);
+    color: rgb(80, 153, 131)
+}
+
+.Visual {
+    width: 230px;
+    background-color: #595985;
+    padding: 17px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    background-color: rgba(44, 107, 167,0.2 );
+    color: #0362af;
+}
+
+.Visual,
+.verbal,
+.reaction,
+.Memory {
+    margin: 15px;
+    font-weight: bold;
+}
+
+button {
+    padding: 17px 30px;
+    width: 262px;
+    border-radius: 30px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    background-color: #383769;
+    letter-spacing: 1px;
+    border: none;
+
+    margin-left: 11px;
+}
+
+.buttons {
+    margin-left: 3px;
+    margin-top: 30px;
+}
+
+img{
+   margin-right: -70px;
+}
