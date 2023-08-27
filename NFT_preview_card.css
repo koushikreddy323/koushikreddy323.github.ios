@@ -91,16 +91,17 @@ footer span {
     color: white;
 }
 
-@media (max-width:375px) {
+@media (max-width:430px) {
     .container {
         /* height: 80vh; */
         position: absolute;
-        top: 17%;
+        top: 0;
         left: 0;
         right: 0;
         bottom: 0;
         margin-bottom: 20%;
     }
-
-
+    .card {
+        scale: 0.8;
+    }
 }
