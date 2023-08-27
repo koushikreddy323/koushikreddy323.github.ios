@@ -91,7 +91,7 @@ footer span {
     color: white;
 }
 
-@media (min-width:375px) {
+@media (max-width:375px) {
     .container {
         /* height: 80vh; */
         position: absolute;
