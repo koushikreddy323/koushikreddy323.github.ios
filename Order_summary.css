@@ -112,6 +112,10 @@ button {
 }
 
 
+
+
+
+
 @media (min-width:550px) {
     body {
         background-image: url("pattern-background-desktop.svg");
@@ -147,5 +151,20 @@ button {
         margin: 0;
     }
 
+    .butt :hover {
+        background-color: hsla(245, 75%, 52%, 0.8);
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: hsla(245, 75%, 52%, 0.8);
+
+
+    }
+
+    .cancel:hover {
+        color: hsl(223, 47%, 23%);
+
+    }
 
 }
