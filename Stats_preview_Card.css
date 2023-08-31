@@ -7,7 +7,7 @@ body {
     font-size: 15px;
 }
 
-@media (min-width:427px) {
+@media (min-width:431px) {
 
     .container {
         width: 950px;
@@ -86,7 +86,7 @@ body {
     }
 }
 
-@media (max-width:426px) {
+@media (max-width:430px) {
 
     .container {
         width: 375px;
