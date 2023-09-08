@@ -1,0 +1,427 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --border: 1.5px solid white;
+    --menu-height: 40px;
+    --border-radius: 4px;
+}
+
+body {
+    background-color: rgba(204, 197, 197, 0.907);
+}
+
+/* Navbar */
+
+.navbar {
+    height: 60px;
+    display: flex;
+    background-color: #131921;
+    align-items: center;
+}
+
+.navbar>* {
+    cursor: pointer;
+}
+
+/* Amazon logo */
+
+.logo {
+    height: 50px;
+    width: 113px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+
+
+}
+
+.nav-logo {
+    border: 1.5px solid transparent;
+    margin: 0 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    height: 50px;
+
+
+}
+
+.nav-logo:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+/* address */
+
+.nav-address {
+    color: white;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1.5px solid transparent;
+    margin: 0 5px;
+    min-width: 71px;
+    padding: 0 8px;
+}
+
+.nav-address:hover {
+    border: 1.5px solid white;
+    border-radius: 3px;
+}
+
+.india {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+.deliver-to {
+    font-size: 0.8rem;
+    color: #cccccc;
+}
+
+.nav-address .deliver-to {
+    margin-left: 0.9rem;
+}
+
+.india i {
+    margin-right: 0.15rem;
+    margin-top: -5px;
+}
+
+/* Search */
+
+
+
+.nav-search {
+    display: flex;
+    height: 40px;
+    width: 700px;
+    background-color: aqua;
+    box-sizing: border-box;
+    margin: 0 15px;
+    border-radius: 5px;
+
+}
+
+.nav-search>* {
+    border: none;
+}
+
+#search-option {
+    width: 52px;
+    padding-left: 0.3rem;
+    border-radius: 5px 0 0 5px;
+    background-color: #cccccc;
+    border: 2px solid transparent;
+
+}
+
+.placeholder {
+    padding-left: 10px;
+    outline: none;
+    min-width: 350px;
+    display: flex;
+    flex: 1;
+}
+
+.nav-search i {
+    width: 50px;
+    background-color: rgb(235, 190, 43);
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 0 5px 5px 0;
+}
+
+#search-option:focus {
+    outline: 3px solid rgb(235, 190, 43);
+    z-index: 1;
+    transition: outline linear 0.1s;
+}
+
+.placeholder:focus {
+    outline: 3px solid rgb(235, 190, 43);
+    transition: outline linear 0.1s;
+
+}
+
+.search-icon:hover {
+    cursor: pointer;
+    background-color: rgb(233, 180, 6);
+}
+
+.search-icon:focus {
+    outline: 3px solid rgb(247, 191, 8);
+
+}
+
+/* Country */
+
+.country {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    padding: 0 5px;
+    margin-left: 10px;
+    border: 1.5px solid transparent;
+    height: 50px;
+    align-items: center;
+}
+
+.dropdown {
+    margin-left: 2px;
+    margin-top: 3px;
+    scale: 0.8;
+}
+
+.country:hover {
+    border: 1.5px solid white;
+    border-radius: 4px;
+
+}
+
+/* Account */
+
+.nav-account {
+    color: white;
+    display: flex;
+}
+
+.light {
+
+    font-size: 12px;
+}
+
+.bold {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.account-info1,
+.account-info2 {
+    padding: 0 8px;
+    border: 1.5px solid transparent;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.account-info1:hover,
+.account-info2:hover {
+    border: var(--border);
+    border-radius: 4px;
+}
+
+/* cart */
+
+.cart {
+    display: flex;
+    color: white;
+    align-items: flex-end;
+    height: 50px;
+    padding: 0 8px 8px 8px;
+    box-sizing: border-box;
+    border: 1.5px solid transparent;
+}
+
+.cart .bold {
+    position: relative;
+    bottom: 5px;
+    left: -2px;
+}
+
+.cart:hover {
+    border: var(--border);
+    border-radius: 4px;
+}
+
+/* -------------------------------------------------Main bar-------------------------------------------- */
+
+.menu-bar {
+    height: 40px;
+    background-color: #242f3f;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.menu-bar>* {
+    height: var(--menu-height);
+    display: flex;
+    align-items: center;
+    border: 1.5px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.menu:hover {
+    border: var(--border);
+}
+
+.menu {
+    margin-left: 20px;
+    padding: 10px;
+
+}
+
+.menu i {
+    scale: 1.4;
+    padding-right: 5px;
+}
+
+
+.border {
+    padding: 0 10px;
+    display: flex;
+    height: var(--menu-height);
+    border: 1.5px solid transparent;
+    box-sizing: border-box;
+
+}
+
+.menu-options>* {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: var(--border-radius);
+}
+
+.border:hover {
+    border: var(--border);
+}
+
+/* ----------------------------------------------Main section--------------------------------------------------- */
+
+.hero {
+    background: linear-gradient(180deg, transparent 70%, rgba(204, 197, 197, 1)), url("Hero.jpg");
+    background-size: cover;
+    height: 600px;
+
+}
+
+.hero-title {
+    color: #131921;
+    background-color: white;
+    height: var(--menu-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0 20px;
+    position: relative;
+    top: 280px;
+}
+
+.hero-title a {
+    color: #007185;
+    text-decoration: none;
+
+}
+
+.hero-title a:hover {
+    color: #c7511f;
+    text-decoration: underline;
+}
+
+.hero-containers>* {
+    height: 400px;
+    background-color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.hero-containers {
+    columns: 4;
+    box-sizing: border-box;
+    column-gap: 20px;
+    position: relative;
+    top: 300px;
+    margin: 0 20px;
+
+}
+
+.hero-bold {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.div1-row1,
+.div1-row2 {
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.div1-row1,
+.div1-row2 img {
+    position: relative;
+    left: -20px;
+}
+
+.onlyimage {
+    position: relative;
+    left: -30px;
+}
+
+.div1-row1 {
+    padding-bottom: 40px;
+}
+
+.image1 {
+    position: relative;
+    left: -25px;
+}
+
+.image4 {
+    margin-left: -20px;
+}
+
+.image3 {
+    z-index: 1;
+}
+
+
+.footer a {
+    color: #007185;
+    position: relative;
+    bottom: -40px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #c7511f;
+    text-decoration: underline;
+}
+
+.div2-image {
+
+    height: 340px;
+
+    background-image: url("div2.jpg");
+    background-size: cover;
+}
+
+.footer2 a {
+    color: #007185;
+    position: relative;
+    bottom: -10px;
+    text-decoration: none;
+}
+
+.footer2 a:hover {
+    color: #c7511f;
+    text-decoration: underline;
+}
