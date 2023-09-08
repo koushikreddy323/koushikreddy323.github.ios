@@ -499,6 +499,16 @@ body {
 
 }
 
+.div2-image,
+.div3-image,
+.div5-image,
+.div6-image,
+.div7-image,
+.div8-image,
+.subdiv2 {
+    cursor: pointer;
+}
+
 .hero-containers2>* {
     height: 400px;
     background-color: white;
