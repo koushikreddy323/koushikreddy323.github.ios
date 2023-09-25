@@ -1,0 +1,116 @@
+.container {
+    width: 800px;
+    aspect-ratio: 16/9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+.container>* {
+    min-width: 33.3%;
+    height: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    line-height: 2.5rem;
+
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    /* font-weight: 400px; */
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+}
+
+a {
+    font-family: 'Lexend Deca', sans-serif;
+    color: transparent;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+    font-size: 14px;
+    border: 2px solid transparent;
+}
+
+a:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: transparent;
+    color: hsl(0, 0%, 95%) !important;
+
+
+}
+
+.link {
+    margin-top: 65px;
+
+}
+
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 8px 0 0 8px;
+}
+
+.sedan a {
+    color: hsl(31, 77%, 52%);
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suv a {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 8px 8px 0;
+}
+
+.luxury a {
+    color: hsl(179, 100%, 13%);
+}
+
+
+@media (max-width:425px) {
+
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 100vh;
+        box-sizing: border-box;
+        margin: 50px 0;
+
+    }
+
+    .container>* {
+        border-radius: 0;
+    }
+
+    .sedan {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 8px 8px;
+    }
+
+}
